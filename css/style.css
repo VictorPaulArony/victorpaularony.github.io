@@ -7,8 +7,8 @@
 
 body {
     font-family: Courier New, Courier, monospace;
-    color: #333;
-    background-color: #faf6f6;
+    color: #050505;
+    background-color: #faf5f5;
     scroll-behavior: smooth;
 }
 
@@ -52,7 +52,6 @@ header .btn:hover {
     padding: 50px 20px;
     text-align: center;
     margin: 20px;
-    /* background-color: #f9f9f9; */
 }
 
 #about .container {
@@ -63,14 +62,12 @@ header .btn:hover {
 
 #about h2 {
     font-size: 36px;
-    color: #333;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 #about p {
     font-size: 18px;
-    color: #555;
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: justify;
@@ -78,7 +75,6 @@ header .btn:hover {
 
 #about h3 {
     font-size: 24px;
-    color: #333;
     margin: 30px 0 15px;
     font-weight: 600;
 }
@@ -120,10 +116,10 @@ header .btn:hover {
 }
 
 .project-card {
-    background-color: #fff;
+    background-color: #0515f51a;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
     text-align: center;
     transition: transform 0.5s;
     width: 100%;
@@ -232,29 +228,30 @@ form button:hover {
 
 
 /* Skills Section Progress Bars */
-/* .skill-progress {
-    padding: 20px;
-    margin: 0 auto;
-} */
 
 .progress {
-    margin: 20px;
+    width: 60%;
+    padding: 20px;
+    margin: 0 auto;
     border-radius: 5px;
     position: relative;
 }
 .progress span{
+    text-align: center;
     font-size:1.2em;
     font-weight: 600;
 }
 .progress h2, p{
+    
  padding: 20px; 
  margin-bottom: 20px;
   text-align: center; 
 }
 
+
 .progress-bar {
     height: 20px;
-    margin: 20px;
+    margin: 0 auto;
     background-color: #4b57ff;
     border-radius: 5px;
     transition: width 0.6s ease;
