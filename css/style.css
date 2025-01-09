@@ -177,6 +177,9 @@ background-size: cover;
   }
 
   @media (max-width: 768px) {
+    .canvas-cotainer{
+        position: fixed;
+    }
     .hero{
         flex-direction: column;
         font-size: small;
@@ -186,7 +189,7 @@ background-size: cover;
     .social-links{
         flex-direction: column;
         font-size: medium;
-        
+
     }
     .projects-grid {
       grid-template-columns: 1fr;
